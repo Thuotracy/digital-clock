@@ -12,3 +12,9 @@ body{
     min-height: 100vh;
     background-color: black;
 }
+
+#time{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
