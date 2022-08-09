@@ -28,6 +28,26 @@ body{
     align-items: center;
 }
 
+#time .circle svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#time .circle svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 4;
+    transform: translate(5px, 5px);
+}
+
+#time .circle svg circle:nth-child(2){
+    
+}
+
+
 #time div{
     position: absolute;
     text-align: center;
