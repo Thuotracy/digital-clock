@@ -44,7 +44,7 @@ body{
 }
 
 #time .circle svg circle:nth-child(2){
-    
+    stroke: var(--clr);
 }
 
 
