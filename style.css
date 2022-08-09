@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: grey;
+    background-color: black;
 }
 
 #time{
@@ -32,6 +32,7 @@ body{
     position: relative;
     width: 150px;
     height: 150px;
+    transform: rotate(270deg);
 }
 
 #time .circle svg circle{
@@ -56,6 +57,15 @@ body{
     font-size: 1.5em;
 }
 
+#time div span{
+    position: absolute;
+    transform: translateX(-50%) translateY(-10%);
+    font-size: 0.35em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
 #time .ap{
     position: relative;
     font-size: 1em;
@@ -67,13 +77,18 @@ body{
     width: 100%;
     height: 100%;
     z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 
-.dot::before{
+.dots::before{
     content: '';
     position: absolute;
+    top: -3px;
     width: 15px;
     height: 15px;
     background: var(--clr);
     border-radius: 50%;
+    box-shadow: 0 0 20px var(--clr),
+    0 0 60px var(--clr)
 }
