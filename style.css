@@ -18,3 +18,25 @@ body{
     gap: 40px;
     color: white;
 }
+
+#time .circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time div{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#time .ap{
+    position: relative;
+    font: 1em;
+    transform: translateX(-20px);
+}
