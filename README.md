@@ -1,7 +1,8 @@
-# digital-clock
-This is a clock
 
-# TIP CALCULATOR
+
+# DIGITAL CLOCK
+This is a clock that displays the current time.
+
 ## Technologies Used
 * HTML
 * CSS
