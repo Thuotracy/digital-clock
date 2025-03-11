@@ -1,4 +1,6 @@
 # DIGITAL CLOCK
+## Description
+
 This is a clock that displays the current time.
 
 ## Technologies Used
@@ -6,7 +8,6 @@ This is a clock that displays the current time.
 * CSS
 * JAVASCRIPT
 
-## Description
 
 
 ## Live link
