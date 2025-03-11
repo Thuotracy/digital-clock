@@ -8,8 +8,6 @@ This is a clock that displays the current time.
 * CSS
 * JAVASCRIPT
 
-
-
 ## Live link
 https://thuotracy.github.io/tip-calculator/
 
