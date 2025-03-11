@@ -7,7 +7,7 @@ This is a clock that displays the current time.
 * JAVASCRIPT
 
 ## Description
-A Tip Calculator App
+
 
 ## Live link
 https://thuotracy.github.io/tip-calculator/
