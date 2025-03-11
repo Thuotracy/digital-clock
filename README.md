@@ -1,6 +1,6 @@
 # DIGITAL CLOCK
-## Description
 
+## Description
 This is a clock that displays the current time.
 
 ## Technologies Used
